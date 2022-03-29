@@ -1,0 +1,41 @@
+[
+    {
+        "nome": "lucas",
+        "profissao": "Desenvlvedor Jr",
+        "idade": 21,
+        "habilidades": [
+            "Violão",
+            "Clarinete",
+            "Piano"
+        ],
+        "cursos": {
+            "graduacao": "Analise e Desenvolvimento de Sistemas",
+            "técnico": "Técnico em Plásticos"
+        }
+    },
+    {
+        "nome": "Pedro",
+        "profissao": "Padeiro",
+        "idade": 32,
+        "habilidades": [
+            "Confeiteiro",
+            "Piano"
+        ],
+        "cursos": {
+            "graduacao": "Gastronomia",
+            "técnico": "Técnico em manipulação de alimentos"
+        }
+    },
+    {
+        "nome": "Manuel",
+        "profissao": "Pescador",
+        "idade": 51,
+        "habilidades": [
+            "Pesca"
+        ],
+        "cursos": {
+            "graduacao": "",
+            "técnico": ""
+        }
+    }
+]
