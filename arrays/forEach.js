@@ -10,7 +10,5 @@ let numero = {
 };
 
 numero.hobby.forEach((numero) => {
-  if (numero.categoria === "em casa") {
-    console.log("ola");
-  }
+  console.log(numero.categoria)
 });
