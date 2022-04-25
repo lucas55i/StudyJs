@@ -8,14 +8,6 @@ let canaisComunicacao = [];
 let tickets = [];
 let automations = [];
 
-if (info === "newEvent") {
-  let newE = "Novo evento";
-  newEvents.push(newE);
-  console.log(newEvents);
-  type = "info";
-  console.log(type);
-}
-
 // #################################################
 
 // por switch case, preciso ver se esse formato é melhor para fazer o que preciso
@@ -45,13 +37,13 @@ switch (info) {
     break;
   case "notification":
     if (isSuccess === true) {
-      let notify = "Notificação ";
+      let notify = "Canal de notificação";
       type = "success";
       canaisComunicacao.push(notify);
       console.log(canaisComunicacao);
       console.log(type);
     } else {
-      let notify = "Notificação ";
+      let notify = "Canal de notificação ";
       type = "error";
       canaisComunicacao.push(notify);
       console.log(canaisComunicacao);
